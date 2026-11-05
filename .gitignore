@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data
+data/
+*.parquet
+*.csv
+*.zip
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# macOS / IDE
+.DS_Store
+.idea/
